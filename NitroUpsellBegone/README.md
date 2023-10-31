@@ -14,9 +14,9 @@ This is probably the one you want to use, removes all the listed things
 ### Make-your-own version
 If you don't want to include all the features, you can hand-pick which fixes/patches you want to add with each url:
 
-* **Messaging Fixes**: ``https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/messaging.css`
-* **Settings Fixes**: ``https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/settings.css`
-* **No Super Reactions**: ``https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/super-reactions.css`
+* **Messaging Fixes**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/messaging.css`
+* **Settings Fixes**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/settings.css`
+* **No Super Reactions**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/super-reactions.css`
 
 
 ## What this theme does
