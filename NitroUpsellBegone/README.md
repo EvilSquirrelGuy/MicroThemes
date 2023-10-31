@@ -22,7 +22,8 @@ If you don't want to include all the features, you can hand-pick which fixes/pat
 
 ## What this theme does
 * Removes all buttons that let you "add" super reactions
-* Removes the nitro/payment setting sections
+* Removes the nitro-related setting sections
+* Removes the merch setting section
 * Removes the "send a gift" button from the messagebox
 * Removes the nitro section from your DMs list
 * Removes the profile editing options locked to nitro
