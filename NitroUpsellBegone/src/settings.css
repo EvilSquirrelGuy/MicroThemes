@@ -1,0 +1,29 @@
+/*
+ *             ===== SETTINGS FIXES ===== 
+ * removes all the nitro-related sections from settings
+ */
+
+[data-tab-id*="friend request" i] + [class^="eyebrow" i] { /* removes the payment settings title in settings */
+  /* IMPORTANT: this selector will BREAK if you have plugins interfering with your settings ordering that insert items AFTER USER SETTINGS */
+  display: none !important;
+}
+
+[data-tab-id*="nitro" i]) { /* removes the nitro+boost sections in settings */
+  display: none !important;
+}
+
+[data-tab-id*="subscriptions" i] { /* removes the subscriptions tab in settings */
+  display: none !important;
+}
+
+[data-tab-id*="library" i] { /* removes the inventory library tab in settings */
+  display: none !important;
+}
+
+[data-tab-id*="billing" i] { /* removes the billing tab in settings */
+  display: none !important;
+}
+
+[data-tab-id*="billing" i] + [class*="separator" i] { /* hide the separator after the nitro settings section */
+  display: none !important;
+}
