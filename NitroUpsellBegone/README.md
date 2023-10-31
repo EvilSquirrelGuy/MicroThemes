@@ -9,7 +9,7 @@ Detailed instructions for different mods can be found in [README](README.md).
 ### Default version
 This is probably the one you want to use, removes all the listed things
 
-`https://raw.githubusercontent.com/EvilSquirrelGuy/MiniDiscordThemes/master/NitroUpsellBegone/index.css`
+`https://raw.githubusercontent.com/EvilSquirrelGuy/MiniDiscordThemes/master/NitroUpsellBegone/default.css`
 
 ### Keep settings version
 If, for whatever reason, you want to keep the settings sections relating to nitro
