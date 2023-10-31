@@ -1,0 +1,23 @@
+/*
+ *             ===== SUPER REACTIONS =====
+ * removes all buttons allowing you to "add" super reactions
+ * which actually just open a prompt to get nitro
+ */
+
+[class^="buttonsInner" i] [aria-label*="super" i] { /* removes the super reaction button from message hover menu */
+  /*
+   * IMPORTANT: this will only work if your language uses the word "super" to refer to super reactions 
+   * feel free to create a pull request/issue to add support for your language
+   * make sure to give the aria-label tag as it appears for you
+   */
+  display: none !important;
+}
+
+[class^="reactions"] [aria-label*="super" i] { /* removes the super reaction button from reaction hover menu */
+  /* the comment above this rule applies to this too */
+  display: none !important;
+}
+
+[class^="menu"] [class*="premium" i] { /* removes the super reactions menu item from the message right-click menu */
+  display: none !important;
+}
