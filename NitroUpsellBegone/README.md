@@ -15,6 +15,7 @@ This is probably the one you want to use, removes all the listed things
 If you don't want to include all the features, you can hand-pick which fixes/patches you want to add with each url:
 
 * **Messaging Fixes**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/messaging.css`
+* **No Extra Profile Features**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/profiles.css`
 * **Settings Fixes**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/settings.css`
 * **No Super Reactions**: `https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/src/super-reactions.css`
 
@@ -23,7 +24,9 @@ If you don't want to include all the features, you can hand-pick which fixes/pat
 * Removes all buttons that let you "add" super reactions
 * Removes the nitro/payment setting sections
 * Removes the "send a gift" button from the messagebox
-* Removes the nitro section from your DMs
+* Removes the nitro section from your DMs list
+* Removes the profile editing options locked to nitro
+* Removed all per-server profile editing options (except nickname and pronouns)
 
 ## What this theme doesn't do
 * Give you nitro
