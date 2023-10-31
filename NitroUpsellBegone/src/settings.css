@@ -31,3 +31,8 @@
   /* hide the separator after the nitro settings section */
   display: none !important;
 }
+
+[data-tab-id*="merchandise" i] {
+  /* removes the link to the merch store */
+  display: none !important;
+}
