@@ -1,27 +1,4 @@
-/* ===== MESSAGING FIXES ===== */
-li[class^="channel"]:has(a[href*="/store"]) { /* removes the nitro category in DMs, seriously why is it even there */
-  display: none !important;
-}
-
-[class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]) { /* removes the "send a gift" button through selecting the svg */
-  /* may break if the svg is changed */
-  display: none !important;
-}
-
-[class^="buttonsInner" i] [aria-label*="super" i] { /* removes the super reaction button from message hover menu */
-  /*
-   * IMPORTANT: this will only work if your language uses the word "super" to refer to super reactions 
-   * feel free to create a pull request/issue to add support for your language
-   * make sure to give the aria-label tag as it appears for you
-   */
-  display: none !important;
-}
-
-[class^="reactions"] [aria-label*="super" i] { /* removes the super reaction button from reaction hover menu */
-  /* the comment above this rule applies to this too */
-  display: none !important;
-}
-
-[class^="menu"] [class*="premium" i] { /* removes the super reactions menu item from the message right-click menu */
-  display: none !important;
-}
+/* since this is modular, all this file does is import each module-ey thing idk */
+@import "https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/messaging.css";
+@import "https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/settings.css";
+@import "https://evilsquirrelguy.github.io/MicroThemes/NitroUpsellBegone/super-reactions.css";
