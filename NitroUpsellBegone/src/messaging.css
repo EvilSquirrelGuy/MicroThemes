@@ -1,0 +1,14 @@
+/*
+ *                 ===== MESSAGING FIXES =====
+ * removes a couple misc features that generally interfere with
+ * messaging, like the nitro section in DMs and the "send gift"
+ * button
+ */
+li[class^="channel"]:has(a[href*="/store"]) { /* removes the nitro category in DMs, seriously why is it even there */
+  display: none !important;
+}
+
+[class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]) { /* removes the "send a gift" button through selecting the svg */
+  /* may break if the svg is changed */
+  display: none !important;
+}
