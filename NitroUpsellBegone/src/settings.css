@@ -3,12 +3,12 @@
  * removes all the nitro-related sections from settings
  */
 
-[data-tab-id*="friend request" i] + [class^="eyebrow" i] { /* removes the payment settings title in settings */
+[data-tab-id*="friend request" i] + [class^="separator" i] + [class^="header" i] { /* removes the payment settings title in settings */
   /* IMPORTANT: this selector will BREAK if you have plugins interfering with your settings ordering that insert items AFTER USER SETTINGS */
   display: none !important;
 }
 
-[data-tab-id*="nitro" i] { /* removes the nitro+boost sections in settings */
+[data-tab-id*="nitro" i], [class*="premiumTab" i] { /* removes the nitro+boost sections in settings, + double check to make sure it does its job */
   display: none !important;
 }
 
