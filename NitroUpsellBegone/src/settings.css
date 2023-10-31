@@ -8,7 +8,7 @@
   display: none !important;
 }
 
-[data-tab-id*="nitro" i]) { /* removes the nitro+boost sections in settings */
+[data-tab-id*="nitro" i] { /* removes the nitro+boost sections in settings */
   display: none !important;
 }
 
