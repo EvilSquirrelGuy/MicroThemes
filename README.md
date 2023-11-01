@@ -27,16 +27,33 @@ A repository containing a few fixes for various things that annoy me in the disc
 5. Switch to the **Online Themes** tab
 6. Paste the URL(s) on a new line in the box
 
-### Replugged
-4. Go to the **Quick CSS** section in replugged settings
+### @import Method
+This one should work with most client mods (Replugged, OpenAsar etc.)
+
+4. Find the CSS editor
+  * Replugged: `Settings > Quick CSS`
+  * OpenAsar: `Settings > OpenAsar Settings > Themes`
+  * Other mods: you'll have to figure it out yourself
 5. Wrap each URL in an @import statement and paste it at the top of the CSS box
 
 ```css
 @import "https://evilsquirrelguy.github.io/MicroThemes/ThemeName/index.css";
 ```
 
-### Other Mods
-idk how other mods work, but you should be able to use the Quick CSS method on any client mod
+<details>
+<summary><h3>Vanilla Discord (not recommended)</h3></summary>
+  
+> [!WARNING]
+> This is just here as a proof-of-concept, if you actually want to use the theme, consider using client mods
+
+4. Open DevTools
+5. Long-press the plus in the bottom half of the "Styles" section
+6. Select `inspector-stylesheet`
+7. Press enter to cancel rule creation
+8. Click the underlined link to `inspector-stylesheet` in the top right corner of the box
+9. Paste the `@import` statement (see the @import method) into the stylesheet
+10. Re-evaluate your life choices that led to you going through all those steps only for them to be gone next time you start discord
+</details>
 
 ## Contributing
 If you have any suggestions feel free to put them in an issue or make a PR for it, i'll try to have a look at it.
