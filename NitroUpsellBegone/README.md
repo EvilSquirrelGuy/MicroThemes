@@ -4,7 +4,7 @@ A theme focused on purging any and all traces of nitro from your client. :sparkl
 Mainly focused on removing stuff that you don't actually have access to without nitro.
 
 ## Usage
-Detailed instructions for different mods can be found in [README](README.md).
+Detailed instructions for different mods can be found in [README](../README.md).
 
 ### Full version
 This is probably the one you want to use, removes all the listed things
