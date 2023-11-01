@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/EvilSquirrelGuy/MicroThemes)
 ![GitHub issues](https://img.shields.io/github/issues/EvilSquirrelGuy/MicroThemes)
 ![GitHub top language](https://img.shields.io/github/languages/top/EvilSquirrelGuy/MicroThemes)
-![Useless badge](https://img.shields.io/badge/woah-this%20badge%20is%20useless-9a2fbf)
+[![Useless badge](https://img.shields.io/badge/woah-this%20badge%20is%20useless-9a2fbf)](https://youtu.be/dQw4w9WgXcQ)
 
 A repository containing a few fixes for various things that annoy me in the discord web/desktop client.
 
