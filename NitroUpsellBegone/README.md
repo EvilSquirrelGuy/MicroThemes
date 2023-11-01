@@ -27,10 +27,11 @@ If you don't want to include all the features, you can hand-pick which fixes/pat
 * Removes the "send a gift" button from the messagebox
 * Removes the nitro section from your DMs list
 * Removes the profile editing options locked to nitro
-* Removed all per-server profile editing options (except nickname and pronouns)
+* Removes all per-server profile editing options (except nickname and pronouns)
 
 ## What this theme doesn't do
 * Give you nitro
 * Let you use nitro features
 * Remove things that nitro users have done (like super reactions)
+* Remove your nitro subscription (tho it will limit your ability to cancel and use certain features)
 * Anything server-side
