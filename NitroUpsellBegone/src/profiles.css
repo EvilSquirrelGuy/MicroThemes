@@ -13,15 +13,15 @@
 
 [class^="customizationSection"]:has(svg[class^="nitroWheel"]) {
   /* remove profile effects section */
-  display: none;
+  display: none !important;
 }
 
 [class^="customizationSection"]:has(+ [class^="customizationSection"]:has(svg[class^="nitroWheel"])) {
   /* remove profile decoration section (assumed to preced effects) */
-  display: none;
+  display: none !important;
 }
 
 [class*="tryItOut"], [class*="upsellOverlay"] {
   /* removes the massive box at the bottom with things you unlock when you get nitro, also the one in individual server profiles */
-  display: none;
+  display: none !important;
 }
