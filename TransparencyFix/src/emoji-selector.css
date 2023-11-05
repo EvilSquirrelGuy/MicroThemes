@@ -1,0 +1,24 @@
+/* emoji/sticker/gif selector transparency */
+
+[class^="contentWrapper"] {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(var(--chattyBlur));
+  outline: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+[class^="contentWrapper"] [class*="categoryList"],
+[class^="contentWrapper"] [class*="Selected"],
+[id*="picker"] [class*="inspected"] {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+[class^="contentWrapper"] [class^="categorySection"] [class^="wrapper"],
+[id*="picker"] [class*="packHeader"] {
+  background: transparent;
+}
+
+[class^="emojiPicker"] [class^="inspector"],
+[id*="picker"] [class^="inspector"] {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(var(--chattyBlur));
+}
