@@ -1,0 +1,29 @@
+/* semi-transparent edit message */
+[class^="channelTextArea"] [class^="scrollableContainer"] {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* quick patches to fix pinned message popout */
+
+[class^="messagesPopoutWrap"],
+[class^="messagesPopoutWrap"] [class^="header_"],
+[class^="messagesPopoutWrap"] [class^="messageGroupWrap"],
+[class^="messagesPopoutWrap"] [class^="messageGroupWrap"] [class^="embedFull"] {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+[class^="messagesPopoutWrap"] [class^="messageGroupWrap"]
+  [class^="embedFull"] [class^="header"] {
+    background: transparent !important;
+}
+
+/* fixing embeds too, specific to override a certain theme */
+#app-mount .app_de4237  .chat__52833 .messagesWrapper_ea2b0b .embedFull__8dc21 {
+  border-bottom: none !important;
+  border-left: calc(var(--chattyBorderRadius)/4) solid;
+  border-radius: 
+    calc(var(--chattyBorderRadius)/4)
+    var(--chattyBorderRadius)
+    var(--chattyBorderRadius)
+    calc(var(--chattyBorderRadius)/4);
+}
