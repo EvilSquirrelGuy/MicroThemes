@@ -16,7 +16,7 @@ li[class^="channel"]:has(a[href*="/store"]) {
   display: none !important;
 }
 
-[class^="emojiSelection"] [class^="shinyButton"] {
+[class^="shinyButton"] {
   /* removes the "get nitro" button from the emoji click popout thing */
   display: none !important;
 }
