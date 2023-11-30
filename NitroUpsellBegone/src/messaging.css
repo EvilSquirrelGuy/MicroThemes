@@ -8,6 +8,11 @@ li[class^="channel"]:has(a[href*="/store"]) {
   display: none !important;
 }
 
+li[class^="channel"]:has(a[href*="/shop"]) {
+  /* removes the shop category in DMs, the guy seems like a creep */
+    display: none;
+}
+
 [class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]) { 
   /* 
    * removes the "send a gift" button through selecting the svg
