@@ -1,5 +1,8 @@
 # TransparencyFix
 
-this is not what youre looking for
+> [!WARNING]
+> this snippet is no longer maintained since i don't even use it
 
-`https://evilsquirrelguy.github.io/MicroThemes/TransparencyFix/index.css`
+~~this is not what youre looking for~~
+
+~~`https://evilsquirrelguy.github.io/MicroThemes/TransparencyFix/index.css`~~
