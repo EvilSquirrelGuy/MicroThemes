@@ -13,12 +13,15 @@ li[class^="channel"]:has(a[href*="/shop"]) {
     display: none;
 }
 
-[class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]), /*old selector (pre-06/12/2023) */
-[class^="inner"] [class^="buttons" i] button:has(path[d^="M4 6a4 4 0 0 1 4-4h.09c"]) { 
+[class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]) { 
   /* 
    * removes the "send a gift" button through selecting the svg
    * may break if the svg is changed
    */
+  display: none !important;
+}
+[class^="inner"] [class^="buttons" i] button:has(path[d^="M4 6a4 4 0 0 1 4-4h.09c"]) {
+  /* old icons version of the above */
   display: none !important;
 }
 
