@@ -1,0 +1,31 @@
+/*
+ *  REACTIONS
+ * Since discord *really* likes to drive home the point that you don't have access to reactions
+ * without nitro, i've gone and removed all the ones you can't used cuz im tired of having purple
+ * glowy shit and lock icons everywhere i go.
+ */
+
+#emoji-picker-tab-panel [class^="categoryItemGuild"]:has([class^="categoryItemLock"]) {
+  /* targets the server list in the sidebar for the reaction adder */
+  display: none !important;
+}
+
+#emoji-picker-tab-panel li:has([class^="emojiLockIcon"]) {
+  /* target the emojis that have little lock icon overlays -_- */
+  display: none !important;
+}
+
+/*#emoji-picker-grid [class^="categorySection"]:has([class^="nitroTopDividerContainer"]) ~ [class^="categorySection"] {
+  /* target all categories that are nitro locked */
+    /*display: none;
+}*/
+
+[class^="nitroTopDividerContainer"] {
+  /* target that pesky purple lock icon */
+    display: none;
+}
+
+[class^="upsellContainer"] {
+  /* target the little popup you get when scrolling down */
+  display: none;
+}
