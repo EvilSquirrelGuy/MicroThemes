@@ -13,15 +13,10 @@ li[class^="channel"]:has(a[href*="/shop"]) {
     display: none;
 }
 
-[class^="inner"] [class^="buttons" i] button:has(path[d^="M16.886 7.999H20C21.104"]) { 
+[class^="inner"] [class^="buttons" i] button:has(+div.expression-picker-chat-input-button) { 
   /* 
-   * removes the "send a gift" button through selecting the svg
-   * may break if the svg is changed
+   * removes send a gift button by selecting the element before the first .expression-...-button
    */
-  display: none !important;
-}
-[class^="inner"] [class^="buttons" i] button:has(path[d^="M4 6a4 4 0 0 1 4-4h.09c"]) {
-  /* old icons version of the above */
   display: none !important;
 }
 
