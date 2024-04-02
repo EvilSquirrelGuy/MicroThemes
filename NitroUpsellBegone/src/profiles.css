@@ -3,7 +3,7 @@
  * like *decorations* and the whole-ass profile colour selector thing
  */
 
-[class*="containerDefault"]:has(img[class*="art" i]) {
+#profile-customization-tab [class^="container"]:has([class^="artContainer"]) {
   /* 
    * remove the box that prompts you to get "new and amazing" avatar decorations
    * it might not work if there's no art, this was designed for the halloween 2023 campaign
@@ -22,6 +22,9 @@
 }
 
 [class*="tryItOut"], [class*="upsellOverlay"] {
-  /* removes the massive box at the bottom with things you unlock when you get nitro, also the one in individual server profiles */
+  /* 
+   * removes the massive box at the bottom with things you unlock when you get nitro,
+   * also the one in individual server profiles
+   */
   display: none !important;
 }
