@@ -13,9 +13,11 @@ li[class^="channel"]:has(a[href*="/shop"]) {
     display: none;
 }
 
-[class^="inner"] [class^="buttons" i] button:has(+div.expression-picker-chat-input-button) { 
+[class^="inner"] [class^="buttons" i] button:has(+div.expression-picker-chat-input-button),
+[class^="inner"] [class*=grow]:has(path[d^=" M-7,10 C-8.1049"]){ 
   /* 
    * removes send a gift button by selecting the element before the first .expression-...-button
+   * old version left in case of rollback or whatever, now it targets the svg code
    */
   display: none !important;
 }
