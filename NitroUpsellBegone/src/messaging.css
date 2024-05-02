@@ -3,18 +3,13 @@
  * messaging, like the nitro section in DMs and the "send gift"
  * button
  */
-li[class^="channel"]:has(a[href*="/store"]) {
-  /* removes the nitro category in DMs, seriously why is it even there */
+[class^="channel"]:has(a[href*="/store"]),
+[class^="channel"]:has(a[href*="/shop"]) {
+  /* removes the nitro and shop categories in DMs, seriously why is it even there */
   display: none !important;
 }
 
-li[class^="channel"]:has(a[href*="/shop"]) {
-  /* removes the shop category in DMs, the guy seems like a creep */
-    display: none;
-}
-
-[class^="inner"] [class^="buttons" i] button:has(+div.expression-picker-chat-input-button),
-[class^="inner"] [class*=grow]:has(path[d^=" M-7,10 C-8.1049"]){ 
+[class^="inner"] [class^="buttons" i] [class*=grow]:has(path[d^=" M-7,10 C-8.1049"]){ 
   /* 
    * removes send a gift button by selecting the element before the first .expression-...-button
    * old version left in case of rollback or whatever, now it targets the svg code
