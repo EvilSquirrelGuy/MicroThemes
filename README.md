@@ -42,7 +42,7 @@ This one should work with most client mods (Replugged, OpenAsar etc.)
 
 <details>
 <summary><h3>Vanilla Discord (not recommended)</h3></summary>
-  
+ 
 > [!WARNING]
 > This is just here as a proof-of-concept, if you actually want to use the theme, consider using client mods
 
@@ -65,3 +65,6 @@ Some selectors are tied to `aria-label`, this is not ideal as this value changes
 I've tried to make any selectors that use this as generic as possible but if your language does something different
 then you're out of luck. If you need this fixed, create an issue with the full value of the offending element's
 `aria-label` attribute, or if you manage to figure out a better way, that's also welcome.
+
+## Disclaimer
+Discord is a registered trademark of Discord Inc. ("Discord").  This repository uses the Discord name for illustrative purposes only, and does not claim any affiliation with, nor endorsement by Discord.
