@@ -17,6 +17,13 @@
   display: none !important;
 }
 
+[class^=iconWrapper]:has(path[d^="M4 5a3 3 0 0 1"]) {
+  /*
+   * removes the "bookmarks" shit from the top bar cuz it's nitro exclusive
+   */
+    display: none;
+}
+
 [class^="shinyButton"] {
   /* removes the "get nitro" button from the emoji click popout thing */
   display: none !important;
