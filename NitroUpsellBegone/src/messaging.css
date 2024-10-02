@@ -9,7 +9,7 @@
   display: none !important;
 }
 
-[class^="inner"] [class^="buttons" i] [class*=grow]:has(path[d^=" M-7,10 C-8.1049"]){ 
+[class^="inner"] [class^="buttons" i] [class^=lottieIcon]:has(path[d^=" M7,-6 C7,-7.6"]){ 
   /* 
    * removes send a gift button by selecting the element before the first .expression-...-button
    * old version left in case of rollback or whatever, now it targets the svg code
