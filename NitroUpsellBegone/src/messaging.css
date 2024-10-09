@@ -9,9 +9,10 @@
   display: none !important;
 }
 
-[class^="inner"] [class^="buttons" i] [class^=lottieIcon]:has(path[d^=" M7,-6 C7,-7.6"]){ 
+[class^="inner"] [class^="buttons" i] [class^=lottieIcon]:has(path[d^=" M7,-6 C7,-7.6"]),
+[class^=inner] [class^=container]:has([class^=giftIcon]){ 
   /* 
-   * removes send a gift button by selecting the element before the first .expression-...-button
+   * they keep changing this shit istg, now it's giftIconButton, fuck me
    * old version left in case of rollback or whatever, now it targets the svg code
    */
   display: none !important;
